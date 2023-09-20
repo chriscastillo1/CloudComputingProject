@@ -1,0 +1,64 @@
+body {
+    background-image: url("mountain.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 160%;
+    background-attachment: fixed;
+}
+
+table {
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    font-size: 30px;
+}
+
+.container {
+    display: flex;
+}
+
+.score {
+    font-size: 30px
+}
+
+.storytime {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.aftermath {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.gameover {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    border: 3px solid black;
+    text-align: center;
+}
+
+.button1, .button2 {
+    display: inline;
+}
+
+.buttonlayout {
+    text-align: center;
+}
+
+.endhealth {
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 5px;
+}

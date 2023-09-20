@@ -1,0 +1,49 @@
+#! /usr/bin/python3
+
+import cgi
+
+form = cgi.FieldStorage()
+
+print("Content-Type: text/html")
+print("Status: 200 OK")
+print()
+
+print("""
+<html>
+<head>
+
+    <style>
+        body {
+            background-image: url("/mountain.jpeg");
+            background-repeat: no-repeat;
+            background-size: 100% 160%;
+            background-attachment: fixed;
+        }
+
+        .gameover {
+            position: fixed;
+            top: 40%;
+            left: 50%;
+
+            transform: translate(-50%, -50%);
+            width: 50%;
+            border: 3px solid black;
+            text-align: center;
+        }
+
+    </style>
+
+    <title>J&J's Adventures</title>
+</head>
+<body>
+
+<div class="gameover">
+    <p style="font-size: 30px">Today was the day, they thought, to make it to the very top! But fate had other plans. Jack and Jill were so very close, but then a thunder arose. There they went, down the hill, tumbling to their deaths.</p>
+    <p style="font-size: 30px">Score: Survived {0} Days</p>
+    <form style="display:flex; justify-content: center; padding-top: 20px;" action="/cgi-bin/start">
+        <button style="background-color: green; font-size: 30px;">RESTART</button>
+    </form>
+</div>
+
+</body>
+</html>""")

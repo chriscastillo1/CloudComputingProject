@@ -1,0 +1,47 @@
+#! /usr/bin/python3
+
+import cgi
+
+print("Content-Type: text/html")
+print("Status: 200 OK")
+print()
+
+print("""
+<html>
+<head>
+
+    <style>
+        body {
+            background-image: url("/top.jpg");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-attachment: fixed;
+        }
+
+        .gameover {
+            background: solid black;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+
+            transform: translate(-50%, -50%);
+            width: 50%;
+            border: 3px solid black;
+            text-align: center;
+        }
+
+    </style>
+
+    <title>Congratulations!</title>
+</head>
+<body>
+
+<div class="gameover">
+    <p style="font-size: 50px;">Congratulations! You made it to the Top!</p>
+    <p style="font-size: 30px; font-weight: bold; color: black;">After being chased for what seemed like an eternity, Jack and Jill finally spot the top. However, they soon hear a snap of a twig... Both Jack and Jill turn their heads and they see it... The horrid abomination that they were trying to outrun. Jack grabbed Jill's hand and sprinted towards the top. With the creature hot on their trail... They could hear its pounding foot steps come closer and closer. Then it leapt... Jack embraced Jill, both of them shutting their eyes for the end that was about to come. But soon Jack and Jill heard an ear piercing screetch. Opening their eyes, they saw the dawning sun peak over the top. In a poof of smoke and dust, the monster disintegrated in front of their eyes. Finally... they were free!
+    <form style="display:flex; justify-content: center; padding-top: 20px;" action="/cgi-bin/start">
+        <button style="background-color: green; font-size: 30px;">Play Again</button>
+    </form>
+</div>
+</body>
+</html>""")

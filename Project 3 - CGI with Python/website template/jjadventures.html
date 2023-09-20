@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" type= "text/css" href="styles.css">
+
+<title>J&J's Adventures</title>
+
+</head>
+<body>
+
+<div class="container">
+
+    <div class="score">Day {}</div>
+
+    <table style="width:40%">
+    <tr>
+        <th>Jack</th>
+        <th>Jill</th>
+    </tr>
+    <tr>
+        <th>Health: {}</th>
+        <th>Health: {}</th>
+    </tr>
+</table>
+</div>
+<div class="storytime">
+    <p>Once upon a evening dreary, Jill was sitting so weary. However, there was Jack who was so cheery with not a care in the world. Jill looked towards the mountains, glistening like a fountain. Soon Jill hatched a plan. She got jack, her best man, to start the trek up the hill - a test of skill. Hours passed and Jack and Jill were not having a blast... Until the peak was in sight. They were feeling weak yet knew they were all right when they saw the sun rising. But fate was not on their side and soon it crushed their pride. One wrong step and Jack was sent tumbling back down. Now he and Jill, when on the hill, were connected with a rope. Now there was no hope as Jill came tumbling back down. Now once again, in bed before 10, they were all on the ground.</p>
+</div>
+
+<div class="aftermath">
+    <p>Its no surprise, that there were cries when Jack and Jill fell. Jack sustained {} damage while Jill took {} damage. Although discouraged, they had a few bandages. After an hour, Jack and Jill recovered {} health.</p>
+</div>
+    <div class="buttonlayout">
+        <form class="button1" action="/cgi-bin/jjadventure" method="get">
+            <input type=hidden name="jack_health" value="100">
+            <input type=hidden name="jill_health" value="100">
+            <input type=hidden name="day" value="1">
+            <button style="background-color: green; font-size: 30px;">Start Game</button>
+        </form>
+        <form class="button2" action="/cgi-bin/jjadventure" method="get">
+            <input type=hidden name="jack_health" value="100">
+            <input type=hidden name="jill_health" value="100">
+            <input type=hidden name="day" value="1">
+            <button style="background-color: green; font-size: 30px;">Rest Game</button>
+        </form>
+    </div>
+</body>
+</html>

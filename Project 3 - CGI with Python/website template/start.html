@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+    body {
+        background-image: url("mountain.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100% 160%;
+        background-attachment: fixed;
+    }
+
+    .title {
+        text-align: center;
+        font-size: 30px;
+        border: 3px solid black;
+    }
+
+    .explain {
+        margin: auto;
+        width: 30%;
+        font-size: 20px;
+        text-align: center;
+    }
+
+
+</style>
+
+<title>J&J's Adventures</title>
+
+</head>
+<body>
+
+<div class="explain">
+<p style="font-weight: bold;">HOW TO PLAY:</p>
+<p>Goal: How many Days can Jack and Jill go up the mountain?</p>
+<p>Story:</p>
+<p>Every day Jack and Jill go up the mountain. However, everytime they do they fall back down. Jack and Jill both start off with 100 Health. But when they fall they take a % of damage, but they heal back some % of health. If the fall kills either one of them... You LOSE! Your Score is the # of days they survive going up and down the mountain</p>
+</div>
+
+<form style="display:flex; justify-content: center; padding-top: 20px;" action="/cgi-bin/jjadventure" method="get">
+    <input type=hidden name="jack_health" value="100">
+    <input type=hidden name="jill_health" value="100">
+    <input type=hidden name="day" value="1">
+    <button style="background-color: green; font-size: 30px;">Start Game</button>
+</form>"
+
+</body>
+</html>
