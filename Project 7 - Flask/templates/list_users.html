@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>View Users</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="static/assets/css/main.css" />
+        <style>
+            body {
+                background-image: url("static/bg.jpg");
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        </style>
+    </head>
+    <body>
+
+        <!-- Header -->
+            <header id="header">
+                <div class="logo"><a href="/flask_app">All Users</a></div>
+            </header>
+
+        {% for record in response %}
+        <!-- Main -->
+            <section id="main">
+                <div class="inner">
+                    <section id="one" class="wrapper style1">
+                        <header class="special">
+                            <h2>{{record[0]}}</h2>
+                            <p>Joined: {{record[2]}}</p>
+                            <p>Blogs Written: {{record[1]}}
+                        </header>
+                    </section>
+                </div>
+        {% endfor %}
+    </body>
+</html>

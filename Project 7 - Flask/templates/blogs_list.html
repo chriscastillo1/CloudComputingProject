@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Blogs View</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="static/assets/css/main.css" />
+        <style>
+            body {
+                background-image: url("static/bg.jpg");
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        </style>
+    </head>
+    <body>
+
+        <!-- Header -->
+            <header id="header">
+                <div class="logo"><a href="/flask_app">Recent Blogs</a></div>
+            </header>
+
+        {% for record in response %}
+        <!-- Main -->
+            <section id="main">
+                <div class="inner">
+                <!-- One -->
+                    <section id="one" class="wrapper style1">
+                        <header class="special">
+                            <h2>{{record[1]}}</h2>
+                            <p>Written By: {{record[0]}}</p>
+                        </header>
+                        <div class="content">
+                            <p>{{record[2]}}</p>
+                        </div>
+                    </section>
+
+                <!-- Two -->
+                    <section id="two" class="wrapper style2">
+                        <header>
+                            <p>Published: {{record[3]}}</p>
+                        </header>
+                    </section>
+
+                </div>
+            </section>
+        {% endfor %}
+
+    </body>
+</html>

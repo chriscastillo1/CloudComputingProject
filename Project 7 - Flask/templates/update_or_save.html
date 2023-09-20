@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Saved Blogs</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="static/assets/css/main.css" />
+        <style>
+            body {
+                background-image: url("static/bg.jpg");
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        </style>
+    </head>
+    <body>
+
+        <!-- Header -->
+            <header id="header">
+                <div class="logo"><a href="#">My Saved Blogs</a></div>
+            </header>
+
+        <!-- Main -->
+            <section id="main">
+                <div class="inner">
+
+                <!-- One -->
+                    <section id="one" class="wrapper style1">
+                        <header class="special">
+                            <a href="/flask_app"><h2>Go to Home</h2></a>
+                        </header>
+                    </section>
+
+                {% for record in response %}
+                <!-- Two -->
+                    <section id="two" class="wrapper style2">
+                        <header>
+                            <h2>{{record[1]}}</h2>
+
+                            <p>Saved Date: {{record[3]}}</p>
+                            <br>
+
+                            <form action="/flask_app/update_or_post" method="POST">
+                                <textarea style="color: white; resize: none;" name="blog_post" rows="8" required>{{record[2]}}</textarea>
+                                <input type="hidden" name="blogID" value="{{record[0]}}">
+                                <br>
+                                <button type="submit" name="POST" value="1">Post</button>
+                                <button type="submit" name="SAVE" value="0">Update and Save</button>
+                            </form>
+                        </header>
+                    </section>
+                {% endfor %}
+    </body>
+</html>

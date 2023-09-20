@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Welcome!</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="static/assets/css/main.css" />
+        <style>
+            body {
+                background-image: url("static/bg.jpg");
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Header -->
+            <header id="header">
+                <div class="logo"><a href="/flask_app">Welcome {{username}}!</a>
+                    <a href="/flask_app/logout"><span>Logout</span></a>
+                </div>
+            </header>
+
+        <!-- Main -->
+            <section id="main">
+                <div class="inner">
+
+                <!-- One -->
+                    <section id="one" class="wrapper style1">
+
+                        <div class="image fit flush">
+                            <img src="static/pic.jfif" alt="" />
+                        </div>
+                        <header class="special">
+                            <a href="/flask_app/blogs_list"><h2>View Recent Blog Posts</h2></a>
+                            <a href="/flask_app/list_users"><h2>View All Users</h2></a>
+                            <p>Writer Stats:</p>
+                        </header>
+                        <div class="content">
+                            <p>Joined: {{joined}}</p>
+                            <p>Published: {{published}}</p>
+                            <a href="/flask_app/view_saved"><p>Total Saved: {{saved}}</p></a>
+                        </div>
+                    </section>
+
+                <!-- Two -->
+                    <section id="two" class="wrapper style2">
+                        <header>
+                            <h2>Write New Blog!</h2>
+                            
+                            <form action="/flask_app/add_blog" method="POST">
+                                <input style="color: white; text-align: center;" type="text" name="blog_title" placeholder="Enter Blog Title" required>
+                                <br>
+                                <textarea style="color: white; resize: none;" name="blog_post" rows="8" placeholder="Start Typing!" required></textarea>
+                                <br>
+                                <button type="submit" name="POST" value="1">Post</button>
+                                <button type="submit" name="SAVE" value="0">Save Later</button>
+                            </form>
+                        </header>
+                    </section>
+                </div>
+            </section>
+    </body>
+</html>

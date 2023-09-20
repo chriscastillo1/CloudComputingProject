@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome! Please Login</title>
+
+    <style>
+        * {
+          margin: 0;
+          padding: 0;
+          background-color: #2f2f2f;
+        }
+        .main {
+          height: 100vh;
+          width: 100vw;
+          position: relative;
+        }
+        .d1 {
+          position: absolute;
+          background-image: url("static/bg.jpg");
+          background-size: 2700px 1500px;
+
+          height: 30vh;
+          width: 15vw;
+
+          background-position: 0 50%;
+
+          box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.8);
+          top: 50%;
+          transform: translateY(-50%);
+          z-index: 2;
+          animation: dd1 10s 1, dd12 10s 1;
+          animation-delay: 4s, 14s;
+        }
+        .d2 {
+          position: absolute;
+          background-image: url("static/bg.jpg");
+          background-size: 2700px 1500px;
+
+          height: 50vh;
+          width: 25vw;
+
+          background-position: -10vw 50%;
+          left: 10vw;
+
+          top: 50%;
+          transform: translateY(-50%);
+          z-index: 1;
+          animation: dd2 10s 2;
+          animation-delay: 4s;
+        }
+        .d3 {
+          position: absolute;
+          background-image: url("static/bg.jpg");
+          background-size: 2700px 1500px;
+          overflow: hidden;
+
+          height: 100vh;
+          width: 40vw;
+          left: 25vw;
+          box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.8);
+          background-position: -35vw 50%;
+
+          top: 50%;
+          transform: translateY(-50%);
+          z-index: 3;
+          animation: dd3 10s 2;
+          animation-delay: 4s;
+        }
+        .d4 {
+          position: absolute;
+          overflow: hidden;
+          background-image: url("static/bg.jpg");
+          background-size: 2700px 1500px;
+
+          height: 80vh;
+          width: 25vw;
+          left: 60vw;
+          background-position: -70vw 50%;
+
+          top: 50%;
+          transform: translateY(-50%);
+          z-index: 1;
+          animation: dd4 10s 2;
+          animation-delay: 4s;
+        }
+
+        @keyframes dd1 {
+          0% {
+          }
+          50% {
+            width: 95vw;
+          }
+        }
+        @keyframes dd12 {
+          0% {
+          }
+          50% {
+            background-position: Calc(0vw - 40px) 50%;
+          }
+        }
+        @keyframes dd2 {
+          0% {
+          }
+          50% {
+            background-position: Calc(-10vw - 40px) 50%;
+          }
+        }
+        @keyframes dd3 {
+          0% {
+          }
+          50% {
+            background-position: Calc(-35vw - 40px) 50%;
+          }
+        }
+        @keyframes dd4 {
+          0% {
+          }
+          50% {
+            background-position: Calc(-70vw - 40px) 50%;
+          }
+        }
+
+        #test {
+            height: 10em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: transparent;
+        }
+
+        form {
+            background: transparent;
+        }
+
+        h1, label, b {
+            background: transparent;
+            text-align: center;
+            padding-top: 30%;
+        }
+
+        input[type=text], input[type=password] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        button:hover {
+            opacity: 0.8;
+        }
+
+        .container {
+            background: transparent;
+            padding: 16px;
+            height: 50px;
+        }
+
+        span.password {
+            float: right;
+            padding-top: 16px;
+        }
+
+    </style>
+
+
+</head>
+<body>
+    <div class="main">
+        <div class="d1"></div>
+        <div class="d2"></div>
+        <div class="d3">    
+            <div id="test">
+
+                <form action="/setcookie" method="POST">
+                    <p><h1 style="font-size: 60px;">Please Login!</h2></p>
+                    <div class="container">
+                        <label for="username"><b>Username</b></label>
+                        <input type="text" placeholder="Enter Username" name="username" required>
+
+                        <button type="submit">Login</button>
+
+                    </div>
+                </form>
+            </div>
+
+        </div>
+        <div class="d4"></div>
+    </div>
+</body>
+</html>
