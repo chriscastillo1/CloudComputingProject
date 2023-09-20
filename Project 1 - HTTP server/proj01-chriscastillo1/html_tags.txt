@@ -1,0 +1,56 @@
+The <a> tag is used in HTML to define a hyperlink reference.
+This is used to link one page to another page, though the
+most important part of this tag is the href which tells
+the user what the destination of that hyperlink is. If
+it has no href tag, then this <a> tag is only a placeholder.
+This hyperlink doesn't have to be text either! Its possible
+to use an image, a sentence, etc. as a hyperlink to another
+image / site / webpage, etc.
+
+The <img> tag is used to embed an image in an html webpage.
+In this case it was used to embed a picture of Russ and Anthony.
+This tag is technically a place holder for the referenced image
+and does not directly insert into the image to the webpage. Another
+cool feature is you can use style the image by specifing a
+width and height.
+
+The <p> tag in HTML indicates where there is a paragraph of text.
+This is of course used to make simple paragraphs of text for a website,
+but in order to style it (font, bold, size, etc.) CSS is needed. If
+you don't use the <p> tag in your website, all the text is not 
+divided and would be jumbled together. This makes the <p> tag
+very important for organizing blocks of text and the webpage
+as a whole.
+
+The <tr> tag defines a row in a table. Usually works in tandem
+with the table header tag and table cell tag to fill in values
+like paragraphs, images, etc. This tag creates the "blocks" of rows
+for the table, where you can later specify the columns
+and or organize paragraphs etc. Similarily, with CSS you can
+style how the rows span over the columns, width, height,
+background color, etc.
+
+The <td> tag defines a data cell in a table on the website.
+These data cells are generic and can contain most any type of
+data including pictures <img> and paragraphs <p> or even
+another table! These data cells can also be height and width
+adjusted to fit the appropaite content like paragraphs, images,
+etc. This tag is also necessary for defining the number of
+elements in the a table row.
+
+The <b> tag is used to as an indicator to the webpage to bold
+any text that follows after it and ends with a </b>. This is
+helpful when needing to emphasize certain words / text
+in a paragraph, table, or being used as a header. It can also
+be used to style text. However, it must be noted
+that in new HTML5, the <b> tag should only be used as a last
+resort because headings and inline CSS can do the job much
+better and more dynamically.
+
+The <ul> tag is used to define an unorder list or bullet
+poitns. To create bullet points in that list, its often used
+with the <li> tag which is used to create a list item / bullet
+in the list. This can then be used to bullet sentences / paragraphs
+or words etc. These lists can also be styled and aren't limited
+to a text. This could be a list of anything such as images, gifs,
+color blocks, etc.

@@ -1,0 +1,368 @@
+<html>
+<head><title>University of Arizona : CSC 346, Fall 20</title></head>
+<body>
+
+<center>
+  <font size="+3"><b>Class Homepage</b></font>
+  <br><font size="+2">CS 346 Fall 20</font>
+</center>
+
+
+
+<p>
+<hr>
+<a name="STAFF"></a>
+<font size="+2"><U>Staff</U></font>
+
+<table><tr>
+
+  <td width=300 align=center valign=bottom>
+    <img src="pics/russelll.jpg">
+
+    <p><b>Instructor:</b> Russell Lewis
+    <br><a href="mailto:russelll@cs.arizona.edu">russelll@cs</a>
+  </td>
+
+  <td width=300 align=center valign=bottom>
+    <img src="pics/anthonyqlau.jpg">
+
+    <p><b>TA:</b> Anthony Lau
+    <br><a href="mailto:anthonyqlau@cs.arizona.edu">anthonyqlau@cs</a>
+  </td>
+
+</tr></table>
+
+
+
+<hr>
+<a name="LINKS"></a>
+<font size="+2"><U>Links</U></font>
+
+<p>
+<b><font color=red>My COVID-related policies:</font></b> <a href="/covid/index.html">https://lecturer-russ.appspot.com/covid/index.html</a>
+
+<p>
+Class Links:
+
+<ul>
+   <li> Plan: <a href="346_Syllabus_Fall_20.pdf">Class syllabus</a> </li>
+   <li> Talk: <a href="https://piazza.com/arizona/fall2020/csc346/" target="_blank">Class Disscussions on Piazza</a> </li>
+   <li> <a href="https://d2l.arizona.edu/d2l/home/928249" target="_blank">D2L</a>:
+     <ul>
+        <li>Watch Panopto videos (click on "UA Tools", then "Panopto") </li>
+        <li>Check your grade </li>
+     </ul></li>
+
+   <li> <a href="https://github.com/">GitHub</a>
+     <ul>
+        <li>Turn in labs and projects </li>
+     </ul></li>
+
+   <li> <a href="https://awseducate.com/">Log in to AWS Education</a>
+
+   <li> <a href="http://www2.cs.arizona.edu/resources/">CS Department Online Resources</a> (go here to reset your Lectura password)
+
+</ul>
+
+<p>
+Information I need for grading:
+<ul>
+   <li> Let me know what your GitHub user ID is: <a href="https://userid-associator-dot-lecturer-russ.appspot.com/">UserID Associator</a> </li>
+</ul>
+
+<p>
+Other useful links:
+<ul>
+     <li><a href="https://www.putty.org/">PuTTY</a> - an ssh client for Windows
+
+         <p>Mac and Linux users won't need to use this, since those OSes
+            have ssh built-in; likewise, if you use the Linux Subsystem for
+            Windows 10, you can use ssh from the command line.
+
+         <p>If you are on an older version of Windows but you love the command
+            line (as you should!), you can also try out <a href="http://cygwin.org/">Cygwin</a>
+            This is, essentially, an open-source version of the Linux
+            Subsystem, which doesn't require Windows 10.
+     </li>
+</ul>
+
+<p>Struggling?  Advising has provided a list of contacts to help you if you (or your friend) are in need of counseling or help.
+
+<ul>
+  <li> <a href="crisis_contacts.pdf">crisis_contacts.pdf</a> </li>
+</ul>
+
+
+
+<hr>
+<a name="MEETINGS"></a>
+<font size="+2"><U>Meetings</U></font>
+
+<p>
+Lectures will be available in three different ways: in-person (details below),
+a Zoom meeting, and a recording, posted to Panopto.  <b>Everyone</b> is free to
+use any one of these methods, at any time.
+
+<p>
+<b>In-Person</b>
+
+<p>
+Our class will not be meeting in person at the beginning of the semester.
+However, in-person meetings are planned for later in the semster.  When they
+begin, we will meet at the following location:
+
+<p>Mon,Wed 3:00-4:15 pm - Meinel Optical Sciences 410
+
+<p>The class will be divided into 2 cohorts; you will only be allowed to
+attend class (at most) once per week - when your cohort meets.
+
+<p>
+<b>Zoom</b>
+
+<p>
+Our meetings will be live-streamed using a Zoom meeting.  Eventually; this will
+be a stream of the in-person meeting; for now, I will host this from elsewhere.
+I <b>strongly encourage</b> everyone to attend the Zoom meeting, if you are
+unable to attend the in-person lecture.
+
+Please use this link to join the Zoom meeting: <a href="https://arizona.zoom.us/j/93984017094">https://arizona.zoom.us/j/93984017094</a>.
+
+<p>If you have any trouble connecting to the Zoom chat, we have detailed info
+<a href="zoom_details.txt">here</a>.
+
+<p>
+<b>Panopto</b>
+
+<p>
+If you are unable to participate with the meeting when it happens (or, if you
+want to review the meeting later), recordings of the Zoom meetings will be
+posted to Panopto.  You can access Panopto by logging into this class on D2L,
+then clicking UA Tools->Panopto.
+
+
+
+
+
+<hr>
+<a name="OFFICEHOURS"></a>
+<font size="+2"><u>Office Hours</u></font>
+
+<p>
+This semester, <b>all</b> Office Hours will be online, hosted using
+<a href="https://hangouts.google.com/" target="_blank">Google Hangouts</a>.
+
+<p>
+<table border=1>
+
+<tr>
+  <th>        </th>
+  <th>Email   </th>
+  <th>Day     </th>
+  <th>Time    </th>
+</tr>
+
+<tr>
+  <td>Russell Lewis        </td>
+  <td>Google Hangouts: User <a href="mailto:russelll@cs.arizona.edu">russelll@cs.arizona.edu</a> </td>
+  <td>Mon-Thu              </td>
+  <td>11 am - noon         </td>
+</tr>
+
+<tr>
+  <td>Anthony Lau          </td>
+  <td>Google Hangouts: User <a href="mailto:anthonyqlau@cs.arizona.edu">anthonyqlau@cs.arizona.edu</a> </td>
+  <td> Wed, Fri </td>
+  <td> 10-11 am </td>
+</tr>
+
+</table>
+
+
+
+<hr>
+<a name="LECTURENOTES"></a>
+<font size="+2"><u>Lecture Slides</u></font>
+
+<p>
+
+<ul>
+  <li> 00: <a href="slides/00_class_intro.pdf">    Class Intro  </a> </li>
+  <li> 01: <a href="slides/01_intro_to_git.pdf">   Git          </a> </li>
+  <li>     02: <a href="slides/02_networking_A.pdf">   Networking (part A)</a>
+       <br>02: <a href="slides/02_networking_B.pdf">   Networking (part B)</a> </li>
+  <li> 03: <a href="slides/03_unix.pdf">           UNIX         </a> </li>
+<!--
+  <li>     04: <a href="slides/04_ec2_A.pdf">   EC2 (part A)</a>
+       <br>04: <a href="slides/04_ec2_B.pdf">   EC2 (part B)</a> </li>
+  <li> 05: <a href="slides/05_html_and_cgi.pdf">   HTML and CGI </a> </li>
+  <li> 06: <a href="slides/06_SQL.pdf">            SQL</a> </li>
+  <li> 07: <a href="slides/07_REST.pdf">           REST</a> </li>
+  <li> 08: <a href="slides/08_public_key_cryptography.pdf"> Public Key Cryptography </a> </li>
+  <li>     <a href="slides/webhooks.pdf"> Webhooks </a> </li>
+  <li>     <a href="slides/web_frameworks_and_flask.pdf"> Web Frameworks and Flask </a> </li>
+  <li>     <a href="slides/gae.pdf"> Google App Engine </a> </li>
+  <li>     <a href="slides/queues.pdf"> Queues </a> </li>
+  <li>     <a href="slides/authentication.pdf"> Authentication </a> </li>
+  <li>     <a href="slides/map_reduce_A.pdf">   MapReduce (part A)</a>
+       <br><a href="slides/map_reduce_B.pdf">   MapReduce (part B)</a> </li>
+  <li>     <a href="slides/docker.pdf"> Docker </a> </li>
+ -->
+
+</ul>
+
+
+
+<hr>
+<a name="TEXTBOOK"></a>
+<font size="+2"><U>Textbook</U></font>
+
+<p>
+This class does not have a textbook.
+
+
+
+<hr>
+<a name="CONTACT_INFO"></a>
+<font size="+2"><U>Contacting Us</U></font>
+
+<p>
+The <b>best</b> place to ask a question is on <a href="https://piazza.com/arizona/fall2020/csc346/" target="_blank">Piazza</a>.
+Please ask most of your questions there!
+
+<p>
+For all emails, please start the subject line of your email with:
+<br><pre>   346: </pre>
+so that we know what it's about.
+
+
+
+<hr>
+<a name="TESTS"></a>
+<font size="+2"><U>Tests</U></font>
+
+<p>
+We will have two 1-hour midterms, as well as a 2-hour Final.  They will all be
+proctored via Examity; you will have a 48-hour window in which you can schedule
+your exam.
+
+<p>
+Tests will be held on the following days:
+
+<ul>
+  <li> Test 1: Wed-Thu, Oct 7-8
+<!--
+       - <a href="tests/test1.pdf">(test)</a> <a href="tests/test1-sols.pdf">(solutions)</a></li>
+  -->
+  <li> Test 2: Wed-Thu, Nov 4-5
+  <li> Final:  Mon-Tue, Dec 14-15
+</ul>
+
+
+
+<hr>
+<a name="PROJECTS"></a>
+<font size="+2"><U>Projects</U></font>
+
+<p>
+Most weeks, we will have a programming project; the projects will vary, based
+on the material we're covering in class.
+
+<p>
+Most projects will be due on Friday, at 5pm.
+
+<p>
+<table border=3>
+
+<tr><th> Item </th>
+    <th> Due  </th>
+    <th> GitHub Classroom Link </th>
+    <th> Solutions </th> </tr>
+
+<tr><td> <a href="projects/preProject.pdf">PreProject</a> </td>
+    <td> <b><font color=red>Mon,</font></b> 31 Aug </td>
+    <td> <a href="https://classroom.github.com/a/f63MRRM2">https://classroom.github.com/a/f63MRRM2</a> </td>
+    <td align=center> n/a </td> </tr>
+
+<tr><td> <a href="projects/proj01.pdf">Project  1 - curl, HTTP Client</a> </td>
+    <td> Fri, 11 Sep </td>
+    <td> <a href="https://classroom.github.com/a/B7fZDjkI">https://classroom.github.com/a/B7fZDjkI</a> </td>
+    <td> </td> </tr>
+
+<!--
+
+<tr><td> Project  2 - curl, HTTP Server, Simple Websites, Intro to EC2 and UNIX
+         <br>Part 1: <a href="projects/proj02.pdf">HTTP server</a>
+         <br>Part 2: <a href="projects/intro_to_unix_and_ec2.pdf">EC2 setup</a>
+       </td>
+    <td> <b><font color=red>Wed</font></b>, 12 Feb </td>
+    <td> <a href="https://classroom.github.com/a/3VQBNi_j">https://classroom.github.com/a/3VQBNi_j</a> </td>
+    <td> </td> </tr>
+
+<tr><td> <a href="projects/proj03.pdf">Project  3 - Intro to CGI</a> </td>
+    <td> Fri, 21 Feb </td>
+    <td> <a href="https://classroom.github.com/a/jAxu6lz9">https://classroom.github.com/a/jAxu6lz9</a> </td>
+    <td> </td> </tr>
+
+<tr><td colspan=4 align=center><b><font color=red> -- Midterm 1, no project this week -- </font></b></td></tr>
+
+<tr><td> <a href="projects/proj04.pdf">Project  4 - SQL</a> </td>
+    <td> Fri,  6 Mar </td>
+    <td> <a href="https://classroom.github.com/a/vIA-BaiJ">https://classroom.github.com/a/vIA-BaiJ</a> </td>
+    <td> </td> </tr>
+
+<tr><td colspan=4 align=center><b><font color=red> -- Spring Break Mar 9-13 -- </font></b></td></tr>
+
+<tr><td> <a href="projects/proj05.pdf">Project  5 - REST server, Redirects</a> </td>
+    <td> <b><font color=red>Mon</font></b> <s>Fri</s>,  6 Apr </td>
+    <td> <a href="https://classroom.github.com/a/uIJzuKdp">https://classroom.github.com/a/uIJzuKdp</a> </td>
+    <td> </td> </tr>
+
+<tr><td> <a href="projects/proj06.pdf">Project  6 - Webhooks</a> </td>
+    <td> Fri, 27 Mar </td>
+    <td> <a href="https://classroom.github.com/a/SUr4-AE0">https://classroom.github.com/a/SUr4-AE0</a> </td>
+    <td> </td> </tr>
+
+<tr><td colspan=4 align=center><b><font color=red> -- Midterm 2, no project this week -- </font></b></td></tr>
+
+<tr><td> <a href="projects/proj07.pdf">Project  7 - Flask and Cookies</a> </td>
+    <td> <b><font color=red>Wed</font></b>, 22 Apr </td>
+    <td> <a href="https://classroom.github.com/a/09jecyBG">https://classroom.github.com/a/09jecyBG</a> </td>
+    <td> </td> </tr>
+
+<tr><td> <a href="projects/proj08.pdf">Project  8 - Google App Engine</a> </td>
+    <td> <b><font color=red>Wed</font></b>, 29 Apr </td>
+    <td> <a href="https://classroom.github.com/a/R23riZ3c">https://classroom.github.com/a/R23riZ3c</a> </td>
+    <td> </td> </tr>
+
+<tr><td> <a href="projects/proj09.pdf">Project 9 - MapReduce</a> </td>
+    <td> <b><font color=red>Wed</font></b>,  6 May </td>
+    <td> <a href="https://classroom.github.com/a/NoGoz_TD">https://classroom.github.com/a/NoGoz_TD</a> </td>
+    <td> </td> </tr>
+
+  -->
+
+</table>
+
+
+
+<hr>
+
+<p>Too funny: An aquaintance of mine wrote "<a href="psalm_193.txt">Psalm 193</a>"
+
+
+
+<!--
+<hr>
+<font size="+2"><u>Acknowledgements</u></font>
+
+<ul>
+  <li> Thanks to Dr. McCann for this website template, and also for
+       various course materials. </li>
+  <li> Thanks to Dr. Mercer and Dr. Homer for their consultation on
+       class design and organization. </li>
+</ul>
+-->
+
+</body> 
+</html>
+
