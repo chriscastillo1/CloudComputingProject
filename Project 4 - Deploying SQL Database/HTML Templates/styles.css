@@ -1,0 +1,83 @@
+html {
+    background-image: url("grad_back.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+#welcome {
+  padding-top: 30px;
+  text-align: center;
+  font-size: 50px;
+  padding-bottom: 100px;
+}
+
+#welcome2 {
+  display: inline;
+  border: 5px solid black;
+}
+
+#explain {
+  text-align: center;
+  font-size: 25px;
+}
+
+#but {
+  text-align: center;
+}
+
+.button {
+  border: none;
+  color: white;
+  text-align: center;
+  margin: 45px 20px;
+  transition-duration: 0.4s;
+}
+
+#lookup {
+  width:320px;
+  height:70px;
+  text-align:center;
+  line-height:1.1em;
+  font-size: 2.1em;
+  background-color: white;
+  color: black; 
+  border: 2px solid #1fb0ff;
+}
+
+#lookup:hover {
+  background-color: #30e3ff;
+  color: white;
+}
+
+#add {
+  width:320px;
+  height:70px;
+  text-align:center;
+  line-height:1.1em;
+  font-size: 2.1em;
+  background-color: white;
+  color: black; 
+  border: 2px solid #1fb0ff;
+}
+
+#add:hover {
+  background-color: #30e3ff;
+  color: white;
+}
+
+#search {
+  width:320px;
+  height:70px;
+  text-align:center;
+  line-height:1.1em;
+  font-size: 2.1em;
+  background-color: white;
+  color: black; 
+  border: 2px solid #1fb0ff;
+}
+
+#search:hover {
+  background-color: #30e3ff;
+  color: white;
+}

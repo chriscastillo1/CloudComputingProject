@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Table Lookup</title>
+
+    <style type="text/css">
+        
+        html {
+            background-image: url("grad_back.jpg");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-attachment: fixed;
+        }
+
+        #intro {
+            font-size: 40px;
+            text-align: center;
+        }
+
+        table { margin-top:  20px; display: inline-block; overflow: auto; }
+        
+        th {
+            font-size: 25px;
+            width: 175px;
+        }
+
+        table { border-collapse: collapse; }
+        tr:nth-child(even) { background: #1fb0ff; }
+
+    </style>
+</head>
+<body>
+
+<div style="text-align: center;">
+    <h1 style="font-size: 70px; margin-bottom: 5px;">Table Lookup</h1>
+    <form action="/" method="get">
+        <button style="font-size: 20px;">Go Back</button>
+    </form>
+</div>
+
+<div id="intro">
+    <p>Lookup a Table in the Database using either the Drop Down or Manual Search</p>
+    <p style="font-size: 24px;" >Warning: Manual Search is CASE-SENSITIVE</p>
+</div>
+
+<div style="text-align: center;">
+    
+    <form action="cgi-bin/lookup" method="get">
+        <label style="font-size: 20px;" for="table">Select a Table:</label>
+
+        <select name="table" id="table">
+            <option value="Not Selected">Not Selected</option>
+            <option value="Orders">Orders</option>
+            <option value="Products">Products</option>
+            <option value="Customers">Customers</option>
+        </select>
+
+        <label style="font-size: 20px; padding-left: 5px;" for="blank">Enter a Table Name:</label>
+        <input type="text" name="usr_input">
+
+        <div style="text-align: center; padding-top: 20px;">
+           <button style="background-color: white; font-size: 20px;">Search</button> 
+        </div>
+    </form>
+</div>
+
+<div style="text-align: center; padding-top: 50px;">
+    <table style="height: 400px;">
+
+      <tr> <th style="width:25px;">ID <th>First <th>Last <th>Address <th>City <th>Postal <th>Country
+
+        <tr> <th style="width:25px;">ID <th>customerID <th>productID <th>Quantity <th>Price <th> Date
+
+            <tr> <th style="width:25px;">ID <th>Product Name <th>Sector <th>Quantity <th>Price
+
+      <tr> <td>foo <td>biadwadadr <td>foo <td>bar <td>foo <td>bar <td> <select name="table" id="table">
+            <option value="Not Selected">Not Selected</option>
+            <option value="Orders">Orders</option>
+            <option value="Products">Products</option>
+            <option value="Customers">Customers</option>
+        </select>
+      <tr> <td>foo <td>bar <td>foo <td>bar <td>foo <td>bar <td> HELLO
+      <tr> <td>foo <td>bar <td>foo <td>bar <td>foo <td>bar <td> HELLO
+      <tr> <td>foo <td>bar <td>foo <td>bar <td>foo <td>bar <td> HELLO
+      <tr> <td>foo <td>bar <td>foo <td>bar <td>foo <td>bar <td> HELLO
+      <tr> <td>foo <td>bar <td>foo <td>bar <td>foo <td>bar <td> HELLO
+      <tr> <td>foo <td>bar <td>foo <td>bar <td>foo <td>bar <td> HELLO
+      <tr> <td>foo <td>bar <td>foo <td>bar <td>foo <td>bar <td> HELLO
+      <tr> <td>foo <td>bar <td>foo <td>bar <td>foo <td>bar <td> HELLO
+      <tr> <td>foo <td>bar <td>foo <td>bar <td>foo <td>bar <td> HELLO
+      <tr> <td>foo <td>bar <td>foo <td>bar <td>foo <td>bar <td> HELLO
+      <tr> <td>foo <td>bar <td>foo <td>bar <td>foo <td>bar <td> HELLO
+      <tr> <td>foo <td>bar <td>foo <td>bar <td>foo <td>bar <td> HELLO
+      <tr> <td>foo <td>bar <td>foo <td>bar <td>foo <td>bar <td> HELLO
+      <tr> <td>foo <td>bar <td>foo <td>bar <td>foo <td>bar <td> HELLO
+      <tr> <td>foo <td>bar <td>foo <td>bar <td>foo <td>bar <td> HELLO
+      <tr> <td>foo <td>bar <td>foo <td>bar <td>foo <td>bar <td> HELLO
+      <tr> <td>foo <td>bar <td>foo <td>bar <td>foo <td>bar <td> HELLO
+      <tr> <td>foo <td>bar <td>foo <td>bar <td>foo <td>bar <td> HELLO
+      <tr> <td>foo <td>bar <td>foo <td>bar <td>foo <td>bar <td> HELLO
+      <tr> <td>foo <td>bar <td>foo <td>bar <td>foo <td>bar <td> HELLO
+      <tr> <td>foo <td>bar <td>foo <td>bar <td>foo <td>bar <td> HELLO
+      <tr> <td>foo <td>bar <td>foo <td>bar <td>foo <td>bar <td> HELLO
+      <tr> <td>foo <td>bar <td>foo <td>bar <td>foo <td>bar <td> HELLO
+      <tr> <td>foo <td>bar <td>foo <td>bar <td>foo <td>bar <td> HELLO
+      <tr> <td>foo <td>bar <td>foo <td>bar <td>foo <td>bar <td> HELLO
+      <tr> <td>foo <td>bar <td>foo <td>bar <td>foo <td>bar <td> HELLO
+      <tr> <td>foo <td>bar <td>foo <td>bar <td>foo <td>bar <td> HELLO
+      <tr> <td>foo <td>bar <td>foo <td>bar <td>foo <td>bar <td> HELLO
+      <tr> <td>foo <td>bar <td>foo <td>bar <td>foo <td>bar <td> HELLO
+
+    </table>
+</div>
+
+</body>
+</html>

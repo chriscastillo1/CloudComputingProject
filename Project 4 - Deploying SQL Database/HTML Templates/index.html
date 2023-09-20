@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Order Management System</title>
+</head>
+<body>
+
+<div id="welcome">
+    <h1 id="welcome2">Welcome to OMS</h1>
+</div>
+
+<div id="explain">
+    <p>Table Lookup: Finds select Table in data base and returns all records</p>
+    <p>Add Record: Allows User to Add a Record to a chosen Table</p>
+    <p>Search: Allows Users to search all Order records</p>
+</div>
+
+<div id="but">
+    <form method="get" action="/cgi-bin/lookup">
+        <button class="button" id="lookup" type="button">Table Lookup</button>
+    </form>
+
+
+
+    <form method="get" action="/cgi-bin/add">
+        <button class="button" id="add" type="button">Add Record</button>
+    </form>
+
+
+
+    <form method="get" action="/cgi-bin/search">
+        <button class="button" id="search" type="button">Search</button>
+    </form>
+</div>
+
+</body>
+</html>

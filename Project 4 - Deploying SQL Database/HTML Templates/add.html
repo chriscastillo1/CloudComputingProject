@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add record</title>
+
+    <style type="text/css">
+        
+        html {
+            background-image: url("grad_back.jpg");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-attachment: fixed;
+        }
+
+        #intro {
+            font-size: 40px;
+            text-align: center;
+        }
+
+        table { margin-top:  20px; display: inline-block; overflow: auto; }
+        
+        th {
+            font-size: 25px;
+            width: 175px;
+        }
+
+    </style>
+</head>
+<body>
+
+<div style="text-align: center;">
+    <h1 style="font-size: 70px; margin-bottom: 5px;">Add Record</h1>
+    <form action="/" method="get">
+        <button style="font-size: 20px;">Go Back</button>
+    </form>
+</div>
+
+<div id="intro">
+    <p>Add a Record to A Table in the Database</p>
+    <p style="font-size: 24px;" >NOTE: When Adding to Orders, Must have Valid Product ID</p>
+</div>
+
+<div style="text-align: center;">
+    
+    <form action="cgi-bin/add" method="get">
+        <label style="font-size: 20px;" for="table">Select a Table:</label>
+
+        <select name="table" id="table">
+            <option value="Not Selected">Not Selected</option>
+            <option value="Orders">Orders</option>
+            <option value="Products">Products</option>
+            <option value="Customers">Customers</option>
+        </select>
+
+        <div style="text-align: center; padding-top: 20px;">
+           <button style="background-color: white; font-size: 20px;">Continue</button> 
+        </div>
+
+        <input type="text" name="ID">
+    </form>
+
+</div>
+
+</body>
+</html>

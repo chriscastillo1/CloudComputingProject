@@ -1,0 +1,33 @@
+| Orders | CREATE TABLE `Orders` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `customerID` int NOT NULL,
+  `productID` int NOT NULL,
+  `qty` int NOT NULL,
+  `price` int NOT NULL,
+  `purchase_date` datetime NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `customerID` (`customerID`),
+  KEY `productID` (`productID`),
+  CONSTRAINT `Orders_ibfk_1` FOREIGN KEY (`customerID`) REFERENCES `Customers` (`id`),
+  CONSTRAINT `Orders_ibfk_2` FOREIGN KEY (`productID`) REFERENCES `Products` (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci |
+
+| Products | CREATE TABLE `Products` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `product_name` varchar(32) NOT NULL,
+  `sector` varchar(20) NOT NULL,
+  `curr_qty` int NOT NULL,
+  `price` int NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci |
+
+| Customers | CREATE TABLE `Customers` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `first_name` varchar(32) NOT NULL,
+  `last_name` varchar(32) NOT NULL,
+  `address` varchar(32) NOT NULL,
+  `city` varchar(32) NOT NULL,
+  `postal_code` int NOT NULL,
+  `country` varchar(32) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci |
