@@ -1,5 +1,5 @@
 # CloudComputingProject
-Python implementation of interactive website with databases.
+Python implementation of interactive website with databases. Uses a variety of technologies to host, and build the website using python. Some projects build upon each other, while project 5, 6, 7 are standalone.
 Note: Unfortunately the servers used to host and run all projects is no longer up but the code is available.
 
 # Key Technologies used
