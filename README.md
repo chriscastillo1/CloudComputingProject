@@ -1,5 +1,6 @@
 # CloudComputingProject
 Python implementation of interactive website with databases.
+Note: Unfortunately the servers used to host and run all projects is no longer up but the code is available.
 
 # Key Technologies used
 HTTP servers, RESTful interface, Amazon Web Services: EC2, RDL (SQL)
